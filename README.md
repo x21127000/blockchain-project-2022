@@ -30,7 +30,9 @@ npm install
 Edit x2112700-Contract.sol file with your token information. And deploy token contract to network using REMIX
 
 
-Edit conract.js with your ABI from deployed contract, Infura token, Contract address, Ethereum address. After for checking yoru contract and ropsten network
+Edit conract.js with your ABI from deployed contract, Infura token, Contract address, Ethereum address. 
+
+Check contract and ropsten network
 
 ```
 node contract.js
