@@ -11,7 +11,39 @@ It is a dockerize node js application that shares 5% of the remaining token amou
 
 #### Requirements:
   * Docker
+  * Node (Version 16)
+  * Code Editor
+  * Npm
   
+Clone Code
+```
+git clone https://github.com/x21127000/blockchain-project-2022.git
+
+```
+ 
+Install dependencies
+```
+npm install
+
+```
+
+Edit x2112700-Contract.sol file with your token information. And deploy token contract to network using REMIX
+
+
+Edit conract.js with your ABI from deployed contract, Infura token, Contract address, Ethereum address. After for checking yoru contract and ropsten network
+
+```
+node contract.js
+
+```
+ 
+Distribute the token
+```
+node distribute.js
+
+```
+
+# For Testing with image you can pull and run the my image. 
 ### Pulling docker image
 
 docker pull x21127000/blockchain-project:0.0.4
